@@ -3,8 +3,8 @@
 process.env.SECRET = 'toes';
 
 const supertest = require('supertest');
-const server = require('../../../src/server.js').server;
-const { db } = require('../../../src/auth/models/index.js');
+const server = require('../lib/server').server;
+const { db } = require('../lib/auth/models/index');
 
 const mockRequest = supertest(server);
 
