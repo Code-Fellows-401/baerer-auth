@@ -4,7 +4,7 @@ const middleware = require('../lib/auth/middleware/basic');
 const { db, users } = require('../lib/auth/models/index');
 
 let userInfo = {
-	admin: { username: 'admin-basic', password: 'password' },
+	admin: { username: 'admin', password: 'password' },
 };
 
 // Pre-load our database with fake users
